@@ -36,6 +36,7 @@ function TextArea(props: TextAreaProps) {
 				style={{ height: actualHeight + 'px' }}
 				value={props.value}
 				onChange={(e) => props.onChange(e.target.value)}
+				placeholder="Having decision fatigue? List your choices here and click the button to let me choose one for you."
 			></textarea>
 
 			{/* Using this to calculate our height */}
