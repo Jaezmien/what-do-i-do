@@ -49,7 +49,7 @@ function App() {
 
 				{toDo !== null && (
 					<div className="mt-4 text-center">
-						💡 You should: <b>{toDo}</b>!
+						💡 You should do: <b>{toDo}</b>!
 					</div>
 				)}
 			</main>
